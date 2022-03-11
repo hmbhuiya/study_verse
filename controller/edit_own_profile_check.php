@@ -8,6 +8,11 @@
 		$email = $_REQUEST['email'];
 		$id = $_REQUEST['id'];
 
+		$src = $_FILES['myfile']['tmp_name'];
+		$des = "upload/".$_FILES['myfile']['name'];
+
+		move_uploaded_file($src, $des);
+
 		if($username != null && $password != null && $email != null){
 			
 			$file = fopen('../models/user.txt', 'r');
@@ -33,4 +38,6 @@
 			echo "null submission";
 		}
 	}
+	else header('location: ../views/phome.php');
+
 ?>

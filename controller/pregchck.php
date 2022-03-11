@@ -13,7 +13,7 @@
 		$degree= $_REQUEST['education'];
 		$bloodgroup= $_REQUEST['bg1'];
 
-
+		
 		
 
 		if($username != null && $password != null && $email != null && $dob != null && $gender != null&& $degree != null && $bloodgroup != null ){

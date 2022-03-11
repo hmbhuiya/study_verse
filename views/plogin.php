@@ -49,6 +49,11 @@
 				<td><input type="submit" name="submit" value="Submit"></td>
 			</tr>
 
+			<tr>
+				<td><br></br></td>
+				<td align="right"><a href="forgotpass.php">Fogot password </a></td> 
+			</tr>
+
 			<tr> <td></td> <td> Don't have account ? </td> </tr>
 
 		<tr>  

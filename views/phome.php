@@ -23,7 +23,10 @@ require('header.php');
 				</td>
 
 			</tr>
+
+			
 		</table>
+
 		
 
 </fieldset>
@@ -31,7 +34,17 @@ require('header.php');
 </center>
 <br></br>
 
-<table align="center">
+		<table align="right">
+		<tr >
+				<td >
+					<a href="../controller/logout.php"> logout </a>
+				</td>
+			</tr>
+		</table>
+<br></br>
+
+
+    <table align="center">
 	<tr>
 		<td>
 
